@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
+import Layout, { siteTitle } from '../components/layout.js';
 import utilStyles from '../styles/utils.module.css';
 
 export default function Home() {
@@ -11,8 +11,8 @@ export default function Home() {
       <section className={utilStyles.headingMd}>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae in qui fugit maiores dolor commodi, libero aut harum soluta, voluptates eius ad consequuntur doloremque consequatur officia earum impedit dolorum ea.</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          (Building this site based on{' '}
+          <a href="https://nextjs.org/learn">this Next.js tutorial</a>.)
         </p>
       </section>
     </Layout>
