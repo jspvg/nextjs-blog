@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       </Head>
 
       <section className={utilStyles.headingMd}>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae in qui fugit maiores dolor commodi, libero aut harum soluta, voluptates eius ad consequuntur doloremque consequatur officia earum impedit dolorum ea.</p>
+        <p>Passionate Junior Web Developer with a strong foundation in JavaScript and a drive for creating optimized, user-friendly web applications. </p>
         <p>
           (Building this site based on{' '}
           <a href="https://nextjs.org/learn">this Next.js tutorial</a>.)
